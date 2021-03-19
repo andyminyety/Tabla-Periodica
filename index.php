@@ -138,12 +138,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tabla Periódica</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body class="arriba">
     <h1 class="titulo">Tabla Periódica de los Elementos Químicos</h1>
+
     <table class="table abajo margin-left margin-bottom-5"">
         <tr>
         <?php foreach($array1 as $tabla):?> 
@@ -223,5 +225,6 @@
         <td colspan="10"></td>
         </tr>
     </table>
+    
 </body>
 </html>
