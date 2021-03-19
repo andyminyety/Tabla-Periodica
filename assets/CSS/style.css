@@ -13,10 +13,13 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: 60px;
 }
 
 .margin-left{
-    margin-left: 41px;
+    margin-left: 35px;
 }
 
 .margin-bottom-5{
@@ -27,7 +30,7 @@ body{
 .table {
     border-collapse: separate;
     border-spacing: 3px;
-    color: #fff;
+    color: white;
     font-size: 6px;
 }
 
@@ -38,15 +41,38 @@ body{
 .td{
     background: white;
     color: black;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 70px;
     padding-top: 7px;
     padding-bottom: 7px;
     border: black 1px solid;
 }
- 
+
+.td-leyenda{
+    background: white;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: black 1px solid;
+}
+
+.td-leyenda-abajo{
+    background: white;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: black 1px solid;
+}
+
+.h1{
+    font-size: 14px;
+}
+
+.h2{
+    font-size: 12px;
+} 
+
 .zoom{
-    transition: width 0.5s, height 0.5s, transform 0.5s;
+    transition: transform 0.5s;
 }
 
 .zoom:hover{
@@ -103,4 +129,8 @@ body{
 
 .actinidos{
     background-color: #f17171;
+}
+
+.gray {
+    background-color: #b2b2b2;
 }
