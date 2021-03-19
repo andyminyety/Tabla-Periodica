@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    font-size: 17px;
+    color: white;
+    text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.margin-left{
+    margin-left: 41px;
+}
+
+.margin-bottom-5{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 3px;
+    color: #fff;
+    font-size: 6px;
+}
+
+.table-space {
+    padding-bottom: 50px;
+}
+
+.td{
+    background: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: black 1px solid;
+}
+ 
+.zoom{
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.zoom:hover{
+    transform: scale(2);
+}
+
+.arriba{
+    margin-top: 50px;
+}
+
+.abajo{
+    padding-bottom: 50px;
+}
+
+.titulo{
+    color: navy;
+}
+
+.no-metales{
+    background-color: #3CB371;
+}
+
+.alcalinos{
+    background-color: #a378a3;
+}
+
+.alcalinosterreos{
+    background-color: #f18bbe;
+}
+
+.metales{
+    background-color: #ffa435;
+}
+
+.metaloides{
+    background-color: #a3da36;
+}
+
+.otrosmetales{
+    background-color: #f5df1b;
+}
+
+.halogenos{
+    background-color: #4ecac6;
+}
+
+.gasesnobles{
+    background-color: #64a6fd;
+}
+
+.lantanidos{
+    background-color: #ec703e;
+}
+
+.actinidos{
+    background-color: #f17171;
+}
