@@ -143,85 +143,85 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body class="arriba">
-    <h1 class="titulo">Tabla Periódica de los Elementos Químicos</h1>
+<body class="margin-top">
+    <h1 class="title">Tabla Periódica de los Elementos Químicos</h1>
 
-    <table class="table abajo margin-left margin-bottom-5"">
+    <table class="table padding-bottom margin-left margin-bottom-5">
         <tr>
-        <?php foreach($array1 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array1 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <td colspan="16"></td>
             <?php endforeach;?> 
         </tr>
         <tr>
-        <?php foreach($array2 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array2 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
             <td colspan="10"></td>
-            <?php foreach($array3 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+            <?php foreach($array3 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr>
-        <?php foreach($array4 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array4 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
             <td colspan="10"></td>
-            <?php foreach($array5 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+            <?php foreach($array5 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?>
         </tr>
         <tr>
-        <?php foreach($array6 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array6 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr>
-        <?php foreach($array7 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array7 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr>
-        <?php foreach($array8 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array8 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr>
-        <?php foreach($array9 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array9 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
         <tr>
         <td colspan="3"></td>  
-        <?php foreach($array10 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array10 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr>
         <td colspan="3"></td>
-        <?php foreach($array11 as $tabla):?> 
-            <td class="td zoom <?php echo $tabla["tipo"];?>"><?php echo $tabla["numero"];?><h1 class="h1"><?php echo $tabla["simbolo"];?></h1><?php echo $tabla["nombre"];?></td>
+        <?php foreach($array11 as $arrays):?> 
+            <td class="td zoom <?php echo $arrays["tipo"];?>"><?php echo $arrays["numero"];?><h1 class="h1"><?php echo $arrays["simbolo"];?></h1><?php echo $arrays["nombre"];?></td>
             <?php endforeach;?> 
         </tr>
         <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></tr><tr></tr><tr></tr></tr><tr></tr><tr></tr></tr><tr></tr>
         <tr>
-        <td class="td-leyenda gray" colspan="10"><h2 class="h2">Metales</h2></td> 
-        <td class="td-leyenda metaloides" colspan="2" rowspan="3"><h2 class="h2">Metaloides</h2></td> 
-        <td class="td-leyenda gray" colspan="6"><h2 class="h2">No Metales</h2></td>
+        <td class="td-legend gray" colspan="10"><h2 class="h2">Metales</h2></td> 
+        <td class="td-legend metaloides" colspan="2" rowspan="3"><h2 class="h2">Metaloides</h2></td> 
+        <td class="td-legend gray" colspan="6"><h2 class="h2">No Metales</h2></td>
         </tr>
         <tr>
-        <td class="td-leyenda-abajo alcalinos" colspan="2" rowspan="2"><h2 class="h2">Alcalinos</h2></td> 
-        <td class="td-leyenda-abajo alcalinosterreos" colspan="2" rowspan="2"><h2 class="h2">Alcalinotérreos</h2></td> 
-        <td class="td-leyenda-abajo metales" colspan="2" rowspan="2"><h2 class="h2">Metales de Transición / Bloque D</h2></td>
-        <td class="td-leyenda-abajo lantanidos" colspan="2" rowspan="1"><h2 class="h2">Lantánidos</h2>
-        <td class="td-leyenda-abajo otrosmetales" colspan="2" rowspan="2"><h2 class="h2">Otros Metales</h2></td>
-        <td class="td-leyenda-abajo no-metales" colspan="2" rowspan="2"><h2 class="h2">Otros No Metales</h2></td>
-        <td class="td-leyenda-abajo halogenos" colspan="2" rowspan="2"><h2 class="h2">Halógenos</h2></td>
-        <td class="td-leyenda-abajo gasesnobles" colspan="2" rowspan="2"><h2 class="h2">Gases Nobles</h2></td>
+        <td class="td-legend-bottom alcalinos" colspan="2" rowspan="2"><h2 class="h2">Alcalinos</h2></td> 
+        <td class="td-legend-bottom alcalinosterreos" colspan="2" rowspan="2"><h2 class="h2">Alcalinotérreos</h2></td> 
+        <td class="td-legend-bottom metales" colspan="2" rowspan="2"><h2 class="h2">Metales de Transición / Bloque D</h2></td>
+        <td class="td-legend-bottom lantanidos" colspan="2" rowspan="1"><h2 class="h2">Lantánidos</h2>
+        <td class="td-legend-bottom otrosmetales" colspan="2" rowspan="2"><h2 class="h2">Otros Metales</h2></td>
+        <td class="td-legend-bottom no-metales" colspan="2" rowspan="2"><h2 class="h2">Otros No Metales</h2></td>
+        <td class="td-legend-bottom halogenos" colspan="2" rowspan="2"><h2 class="h2">Halógenos</h2></td>
+        <td class="td-legend-bottom gasesnobles" colspan="2" rowspan="2"><h2 class="h2">Gases Nobles</h2></td>
         </tr>
         <tr>
-        <td class="td-leyenda-abajo actinidos" colspan="2" rowspan="1"><h2 class="h2">Actínidos</h2></td>
+        <td class="td-legend-bottom actinidos" colspan="2" rowspan="1"><h2 class="h2">Actínidos</h2></td>
         <td colspan="10"></td>
         </tr>
     </table>

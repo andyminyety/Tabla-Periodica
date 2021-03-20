@@ -27,15 +27,11 @@ body{
     margin-bottom: 5px;
 }
 
-.table {
+.table{
     border-collapse: separate;
     border-spacing: 3px;
     color: white;
     font-size: 6px;
-}
-
-.table-space {
-    padding-bottom: 50px;
 }
 
 .td{
@@ -47,7 +43,7 @@ body{
     border: black 1px solid;
 }
 
-.td-leyenda{
+.td-legend{
     background: white;
     color: black;
     padding-top: 4px;
@@ -55,7 +51,7 @@ body{
     border: black 1px solid;
 }
 
-.td-leyenda-abajo{
+.td-legend-bottom{
     background: white;
     color: black;
     padding-top: 3px;
@@ -79,15 +75,15 @@ body{
     transform: scale(2);
 }
 
-.arriba{
+.margin-top{
     margin-top: 50px;
 }
 
-.abajo{
+.padding-bottom{
     padding-bottom: 50px;
 }
 
-.titulo{
+.title{
     color: navy;
 }
 
@@ -132,5 +128,5 @@ body{
 }
 
 .gray {
-    background-color: #b2b2b2;
+    background-color: #b8b8b8;
 }
